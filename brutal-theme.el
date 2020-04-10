@@ -1,11 +1,11 @@
-;;; brutal-theme.el --- Emacs theme with a light background.
+;;; brutal-theme.el --- Brutalist theme -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2018 , Topi Kettunen <topi@kettunen.io>
+;; Copyright (C) 2020, Topi Kettunen <topi@kettunen.io>
 
 ;; Author: Topi Kettunen <topi@kettunen.io>
-;; https://github.com/topikettunen/brutal
+;; URL: https://github.com/topikettunen/brutal
 ;; Version: 0.1
-;; Package-Requires: ((emacs "24"))
+;; Package-Requires: ((emacs "24.1"))
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -23,6 +23,8 @@
 ;; This file is not part of Emacs.
 
 ;;; Commentary:
+
+;; Brutalist theme for Emacs in the spirit of Plan 9's Acme User Interface.
 
 ;;; Code:
 
@@ -51,7 +53,7 @@
        (warning "#ff0000"))
    (custom-theme-set-faces
    'brutal
-        `(default ((,class (:background ,bg1 :foreground ,fg1 :bold t))))
+        `(default ((,class (:background ,bg1 :foreground ,fg1))))
         `(font-lock-builtin-face ((,class (:foreground ,builtin))))
         `(font-lock-comment-face ((,class (:foreground ,comment))))
 	`(font-lock-negation-char-face ((,class (:foreground ,const))))
@@ -59,7 +61,7 @@
 	`(font-lock-constant-face ((,class (:foreground ,const))))
         `(font-lock-doc-face ((,class (:foreground ,comment))))
         `(font-lock-function-name-face ((,class (:foreground ,func))))
-        `(font-lock-keyword-face ((,class (:bold ,class :foreground ,keyword))))
+        `(font-lock-keyword-face ((,class (class :foreground ,keyword))))
         `(font-lock-string-face ((,class (:foreground ,str))))
         `(font-lock-type-face ((,class (:foreground ,type ))))
         `(font-lock-variable-name-face ((,class (:foreground ,var))))
@@ -136,7 +138,7 @@
         `(js3-function-param-face ((,class (:foreground ,key3))))
         `(js3-jsdoc-tag-face ((,class (:foreground ,keyword))))
         `(js3-instance-member-face ((,class (:foreground ,const))))
-	`(warning ((,class (:foreground ,warning)))) 
+	`(warning ((,class (:foreground ,warning))))
 	`(ac-completion-face ((,class (:underline t :foreground ,keyword))))
 	`(info-quoted-name ((,class (:foreground ,builtin))))
 	`(info-string ((,class (:foreground ,str))))
