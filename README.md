@@ -1,6 +1,6 @@
 # brutal
 
-Brutalist theme for Emacs made in the spirit of Plan 9's Acme User Interface for
+Brutalist theme for Emacs for
 all your minimalistic needs.
 
 ![Brutal](https://raw.githubusercontent.com/topikettunen/brutal-emacs/master/img/brutal.png)
