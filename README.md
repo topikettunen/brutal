@@ -1,7 +1,6 @@
-# brutal
+# About
 
-Brutalist theme for Emacs for
-all your minimalistic needs.
+Brutal theme for Emacs for all your minimalistic needs.
 
 ![Brutal](https://raw.githubusercontent.com/topikettunen/brutal-emacs/master/img/brutal.png)
 
