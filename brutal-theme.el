@@ -24,7 +24,7 @@
 
 ;;; Commentary:
 
-;; Brutalist theme for Emacs in the spirit of Plan 9's Acme User Interface.
+;; Brutalist theme for Emacs for all your minimalistic needs.
 
 ;;; Code:
 
@@ -82,6 +82,7 @@
         `(minibuffer-prompt ((,class (:bold t :foreground ,keyword))))
         `(default-italic ((,class (:italic t))))
 	`(link ((,class (:foreground ,const :underline t))))
+	`(sh-quoted-exec ((,class (:foreground ,black))))
 	`(org-code ((,class (:foreground ,fg2))))
 	`(org-hide ((,class (:foreground ,fg4))))
         `(org-level-1 ((,class (:bold t :foreground ,fg2 :height 1.1))))
