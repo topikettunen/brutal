@@ -83,6 +83,7 @@
         `(default-italic ((,class (:italic t))))
 	`(link ((,class (:foreground ,const :underline t))))
 	`(sh-quoted-exec ((,class (:foreground ,black))))
+	`(eshell-prompt ((,class (:foreground ,black))))
 	`(org-code ((,class (:foreground ,fg2))))
 	`(org-hide ((,class (:foreground ,fg4))))
         `(org-level-1 ((,class (:bold t :foreground ,fg2 :height 1.1))))
