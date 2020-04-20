@@ -35,3 +35,9 @@ Or with `use-package`:
   (load-theme 'brutal t))
 ```
 
+## Contributing
+
+I like to keep my own `.emacs.d` relatively clean so there might be some "ugly"
+coloring in some of the modes, since I have most likely just missed that because
+I don't use it. If you happen to find some of these, feel free to drop a PR to clean
+it.
