@@ -1,4 +1,4 @@
-;;; brutal-themes.el --- Brutalist theme -*- lexical-binding: t; -*-
+;;; brutal-theme.el --- Brutalist theme -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2021, Topi Kettunen <topi@kettunen.io>
 
@@ -31,6 +31,6 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide 'brutal-themes)
+(provide 'brutal-theme)
 
-;;; brutal-themes.el ends here
+;;; brutal-theme.el ends here
