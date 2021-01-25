@@ -32,7 +32,7 @@ Or with `use-package`:
 (use-package brutal-theme
   :load-path "themes"
   :config
-  (load-theme 'brutal-ligth t)) ; or brutal-dark
+  (load-theme 'brutal-light t)) ; or brutal-dark
 ```
 
 ## Contributing
