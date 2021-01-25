@@ -61,7 +61,7 @@
 
    `(show-paren-match-face ((,class (:background ,warning))))
    `(isearch ((,class (:bold t :foreground ,bg1 :background ,fg1))))
-   `(mode-line ((,class (:bold t :foreground "black" :background "gray"))))
+   `(mode-line ((,class (:bold t :foreground ,bg1 :background ,fg1))))
    `(mode-line-inactive ((,class (:foreground "gray80" :background "gray30" :weight normal))))
    `(mode-line-buffer-id ((,class (:bold t :foreground "black" :background nil))))
    `(mode-line-highlight ((,class (:foreground ,keyword :box nil :weight bold))))
