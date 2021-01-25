@@ -2,9 +2,12 @@
 
 Brutal theme for Emacs for all your minimalistic needs.
 
-![Brutal Light](https://raw.githubusercontent.com/topikettunen/brutal-emacs/master/img/brutal-light.png)
+![Brutal Light](/img/brutal-light.png)
 
-![Brutal Dark](https://raw.githubusercontent.com/topikettunen/brutal-emacs/master/img/brutal-Dark.png)
+![Brutal Dark](/img/brutal-dark.png)
+
+
+- Note: I'm using bold in my font face, which is not on by default in the theme.
 
 ## Installation
 
