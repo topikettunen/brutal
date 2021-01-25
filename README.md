@@ -2,18 +2,18 @@
 
 Brutal theme for Emacs for all your minimalistic needs.
 
-![Brutal](https://raw.githubusercontent.com/topikettunen/brutal-emacs/master/img/brutal.png)
+![Brutal Light](/img/brutal-light.png)
 
-- Note: I'm using bold in my font face, which is not on by default in the theme.
+![Brutal Dark](/img/brutal-dark.png)
 
 ## Installation
 
 ### MELPA
 
 ``` elisp
-(use-package brutal-theme
+(use-package brutal-themes
   :config
-  (load-theme 'brutal t))
+  (load-theme 'brutal-light t)) ; or brutal-dark
 ```
 
 ### Local
@@ -23,16 +23,16 @@ directory for holding this so I can load it with:
 
 ``` elisp
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'brutal t)
+(load-theme 'brutal-light t) ; or brutal-dark
 ```
 
 Or with `use-package`:
 
 ``` elisp
-(use-package brutal-theme
+(use-package brutal-themes
   :load-path "themes"
   :config
-  (load-theme 'brutal t))
+  (load-theme 'brutal-ligth t)) ; or brutal-dark
 ```
 
 ## Contributing
