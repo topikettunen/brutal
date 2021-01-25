@@ -11,7 +11,7 @@ Brutal theme for Emacs for all your minimalistic needs.
 ### MELPA
 
 ``` elisp
-(use-package brutal-themes
+(use-package brutal-theme
   :config
   (load-theme 'brutal-light t)) ; or brutal-dark
 ```
@@ -29,7 +29,7 @@ directory for holding this so I can load it with:
 Or with `use-package`:
 
 ``` elisp
-(use-package brutal-themes
+(use-package brutal-theme
   :load-path "themes"
   :config
   (load-theme 'brutal-ligth t)) ; or brutal-dark
