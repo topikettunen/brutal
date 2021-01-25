@@ -6,9 +6,6 @@ Brutal theme for Emacs for all your minimalistic needs.
 
 ![Brutal Dark](/img/brutal-dark.png)
 
-
-- Note: I'm using bold in my font face, which is not on by default in the theme.
-
 ## Installation
 
 ### MELPA
