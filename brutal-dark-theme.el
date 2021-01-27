@@ -85,7 +85,6 @@
    `(font-lock-variable-name-face ((,class (:foreground ,var))))
    `(font-lock-warning-face ((,class (:foreground ,warning :background ,bg2))))
    
-   
    `(org-code ((,class (:foreground ,fg2))))
    `(org-hide ((,class (:foreground ,fg4))))
    `(org-level-1 ((,class (:bold t :foreground ,fg2 :height 1.1))))
@@ -270,7 +269,10 @@
    `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
    `(jde-java-font-lock-modifier-face ((t (:foreground ,fg2))))
    `(jde-jave-font-lock-protected-face ((t (:foreground ,keyword))))
-   `(jde-java-font-lock-number-face ((t (:foreground ,var))))))
+   `(jde-java-font-lock-number-face ((t (:foreground ,var))))
+   
+   '(terraform--resource-name-face ((t nil)))
+   '(terraform--resource-type-face ((t nil)))))
 
 (provide-theme 'brutal-dark)
 (provide 'brutal-dark-theme)
