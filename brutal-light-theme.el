@@ -32,13 +32,13 @@
 
 (let ((class '((class color) (min-colors 89)))
       (fg1 "#303030")
-      (fg2 "#3e3e3e")
-      (fg3 "#4d4d4d")
-      (fg4 "#5c5c5c")
-      (bg1 "#ffffea")
-      (bg2 "#e8e8d5")
-      (bg3 "#d1d1c0")
-      (bg4 "#bbbbac")
+      (fg2 "#414141")
+      (fg3 "#515151")
+      (fg4 "#626262")
+      (bg1 "#ffffff")
+      (bg2 "#ebebeb")
+      (bg3 "#d6d6d6")
+      (bg4 "#c2c2c2")
       (comment "#969696"))
   
   (custom-theme-set-faces
@@ -48,7 +48,7 @@
    ;; Crucial faces
    
    `(default ((,class (:background ,bg1 :foreground ,fg1))))
-   `(region ((,class (:background ,fg1 :foreground ,bg1))))
+   ;; `(region ((,class (:background ,fg4 :foreground ,bg4)))) 
    `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
    `(hl-line ((,class (:background  ,bg2))))
    `(fringe ((,class (:background ,bg2 :foreground ,fg4))))

@@ -31,14 +31,14 @@
 (deftheme brutal-dark)
 
 (let ((class '((class color) (min-colors 89)))
-      (fg1 "#dbdbdb")
-      (fg2 "#c9c9c9")
-      (fg3 "#b8b8b8")
-      (fg4 "#a6a6a6")
-      (bg1 "#14191e")
-      (bg2 "#272b30")
-      (bg3 "#3a3e42")
-      (bg4 "#4c5054")
+      (fg1 "#d4d4d4")
+      (fg2 "#c3c3c3")
+      (fg3 "#b2b2b2")
+      (fg4 "#a1a1a1")
+      (bg1 "#000000")
+      (bg2 "#141414")
+      (bg3 "#292929")
+      (bg4 "#3d3d3d")
       (comment "#676767"))
   
   (custom-theme-set-faces
@@ -48,7 +48,7 @@
    ;; Crucial faces
    
    `(default ((,class (:background ,bg1 :foreground ,fg1))))
-   `(region ((,class (:background ,fg1 :foreground ,bg1))))
+   ;; `(region ((,class (:background ,fg4 :foreground ,bg4))))
    `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
    `(hl-line ((,class (:background  ,bg2))))
    `(fringe ((,class (:background ,bg2 :foreground ,fg4))))
