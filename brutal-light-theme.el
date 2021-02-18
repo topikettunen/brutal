@@ -31,7 +31,7 @@
 (deftheme brutal-light)
 
 (let ((class '((class color) (min-colors 89)))
-      (fg1 "#000000")
+      (fg1 "#444444")
       (fg2 "#414141")
       (fg3 "#515151")
       (fg4 "#626262")
