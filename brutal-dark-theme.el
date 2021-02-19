@@ -35,7 +35,7 @@
       (fg2 "#c3c3c3")
       (fg3 "#b2b2b2")
       (fg4 "#a1a1a1")
-      (bg1 "#000000")
+      (bg1 "#111000")
       (bg2 "#141414")
       (bg3 "#292929")
       (bg4 "#3d3d3d")
@@ -48,7 +48,10 @@
    ;; Crucial faces
    
    `(default ((,class (:background ,bg1 :foreground ,fg1))))
+   
+   ;; For region, default face is good enough.
    ;; `(region ((,class (:background ,fg4 :foreground ,bg4))))
+
    `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
    `(hl-line ((,class (:background  ,bg2))))
    `(fringe ((,class (:background ,bg2 :foreground ,fg4))))
@@ -57,6 +60,7 @@
    `(mode-line ((,class (:bold t :foreground ,bg1 :background ,fg1))))
    `(mode-line-inactive ((,class (:foreground ,fg4 :background ,bg2 :weight normal))))
    `(font-lock-comment-face ((,class (:foreground ,comment))))
+   `(org-link ((,class (:underline '(:color ,fg1)))))
 
    ;; Disabled faces
    
@@ -92,7 +96,6 @@
    `(org-level-4 ((t nil)))
    `(org-date ((t nil)))
    `(org-footnote  ((t nil)))
-   `(org-link ((t nil)))
    `(org-special-keyword ((t nil)))
    `(org-block ((t nil)))
    `(org-quote ((t nil)))
