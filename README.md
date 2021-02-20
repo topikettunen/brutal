@@ -2,9 +2,7 @@
 
 Brutal theme for Emacs for all your minimalistic needs.
 
-![Brutal Light](img/brutal-light.png)
-
-![Brutal Dark](img/brutal-dark.png)
+![Brutal Theme](img/brutal.png)
 
 ## Installation
 
