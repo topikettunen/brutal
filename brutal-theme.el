@@ -43,12 +43,11 @@
    'brutal
 
    ;; Crucial faces
+   ;;
+   ;; Expceptions
+   ;;   - For region, default face is good enough.
    
    `(default ((,class (:background ,bg1 :foreground ,fg1))))
-   
-   ;; For region, default face is good enough.
-   ;; `(region ((,class (:background ,fg4 :foreground ,bg4))))
-
    `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
    `(hl-line ((,class (:background  ,bg2))))
    `(fringe ((,class (:background ,bg2 :foreground ,fg4))))
