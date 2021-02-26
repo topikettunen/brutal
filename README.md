@@ -32,7 +32,7 @@ from language to language can be quite hard. I quickly noticed that without
 syntax highlighting, the switch between languages started to seem much more
 effortless.
 
-Does this work the same for everyone? Probably not, but you feel free to test my
+Does this work the same for everyone? Probably not, but feel free to test my
 theme, and I would gladly hear your thoughts about it. 
 
 
