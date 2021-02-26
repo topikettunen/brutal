@@ -44,7 +44,7 @@
 
    ;; Crucial faces
    ;;
-   ;; Expceptions
+   ;; Exceptions
    ;;   - For region, default face is good enough.
    
    `(default ((,class (:background ,bg1 :foreground ,fg1))))
